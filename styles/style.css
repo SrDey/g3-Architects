@@ -7,7 +7,7 @@
   margin: 0%;
   padding: 0%;
 }
-.banner-discription, .item-discription{
+.banner-discription, .item-discription, .fact-discription{
   color: #727272;
   font-size: 16px;
   font-weight: 400;
@@ -75,6 +75,7 @@ color: #FFF;
 font-weight: 600;
 font-size: 20px;
 cursor: pointer;
+margin-top: 15px;
 }
  
 .banner img{
@@ -82,7 +83,7 @@ cursor: pointer;
 }
 main{
   max-width: 1440px;
-  margin: 0px 240px;
+  margin: 0px 100px;
 }
 
 
@@ -105,7 +106,29 @@ main{
  padding-left: 70px;
  padding-right: 70px;
 }
-
+/* fact section */
+.fact-title{
+  color: #131313;
+  font-size: 45px;
+}
+.fact{
+  display: flex;
+  flex-direction: column;
+}
+.fact-content{
+  max-width: 50%;
+}
+.card-items{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  margin-top: 15px;
+  border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 45px;
+}
 
 
 
