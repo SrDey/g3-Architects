@@ -145,6 +145,10 @@ padding-left: 10px;
   width: 342px;
   text-align: center;
   color: #FFF;
+  border-radius: 5px;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
 }
 .ten-years-bage h3{
   font-size: 65px;
@@ -200,6 +204,17 @@ font-weight: 500;
   color: #131313;
   font-size: 45px;
 }
+/* footer */
+footer{
+  
+height: 60px;
+color: #424242;
+background: #FFF4E7;
+text-align: center;
+margin-top: 30px;
+padding: 40px;
+border-radius: 5px;
+}
 
 
 
@@ -223,7 +238,8 @@ font-weight: 500;
   nav,
   .team-container,
   .card-items,
-  .sponsor-img  {
+  .sponsor-img,
+  .features {
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -255,6 +271,18 @@ font-weight: 500;
   }
  .sponsor-img img{
   width: 165px;
+ }
+ .features img{
+  width: 100%;
+ }
+ .ten-years-bage{
+  width: 80%;
+  padding: 20px;
+  position: relative;
+  bottom: 50px;
+ }
+ footer{
+  padding: 5px;
  }
 }
 
@@ -298,8 +326,18 @@ font-weight: 500;
     flex-direction: column;
     padding: 10px;
     gap: 10px;
+    align-items: center;
   }
   .sponsor-img img{
     width: 165px;
+   }
+   .features img{
+    width: 100%;
+   }
+   .ten-years-bage{
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    bottom: 50px;
    }
 }
